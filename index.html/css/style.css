@@ -1,0 +1,178 @@
+/*css reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.mainblock{
+    
+    height: 500px;
+    background-image: linear-gradient(70deg,rgb(176, 245, 156),rgb(235, 255, 148));
+}
+.block1{
+    height: 390px;
+    width: 390px;
+    background-color: black;
+    background-image: url(../images/sp2.jpg);
+    
+    
+}
+
+.block2{
+    height: 415px;
+    width: 415px;
+    background-color: red;
+    align-self: center;
+    background-image: url(../images/sp3.jpg);
+    background-size: 500px 500px;
+}
+.block3{
+    height: 390px;
+    width: 390px;
+    background-color: blue;
+    background-image: url(../images/sp1.jpg);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+h5{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 80px;
+    font-weight: 50px;
+    font-family: serif;
+}
+h4{
+  padding-left: 100px;
+  font-size: 40px;
+  font-weight: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+h4:hover{
+    font-size: 50px;
+    transition: all 1s 1s linear;
+}
+h4::after{
+    content:".";
+    font-size: 0;
+    width:100px;
+    height: 50px;
+    font-weight: 100px;
+    border-top: 1px solid #000;
+    display:block;
+    margin-top: 10px;
+    
+}
+span{
+    font-weight: bold;
+}
+p{
+    padding-bottom: 30px;
+    padding-left: 150px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.spgoogle{
+    height: 300px;
+    width: 300px;
+    background-color: #000;
+    margin: 0 auto;
+    background-image: url(../images/sp4.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+.career{
+    padding-top: 20px;
+}
+.spalpha{
+    height: 300px;
+    width: 300px;
+    background-color: #000;
+    margin: 0 auto;
+    background-image: url(../images/sp5.jpg);
+    background-size: 400px 300px;
+    background-repeat: no-repeat;
+}
+.ablock{
+    height: 3300px;
+    
+    background-image: linear-gradient(70deg,rgb(59, 129, 199),rgb(114, 247, 132));
+}
+.pl{
+    height: 200px;
+    width: 300px;
+    background-color: #000;
+    margin: 0 auto;
+    background-image: url(../images/sp11.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+.personal{
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: black;
+}
+
+a:hover{
+    color: darkblue;
+}
+.footblock{
+    height: 80px;
+    background-color: black;
+}
+.foottext{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+}

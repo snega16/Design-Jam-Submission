@@ -1,0 +1,123 @@
+/*css reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.mainblock{
+    
+    height: 1590px;
+    background-image: linear-gradient(90deg,rgb(230, 231, 147),rgb(59, 129, 199));
+}
+
+.container{
+    display:flex;
+    height: 400px;
+    
+    background-image: url(../images/sp10.jpg);
+    background-size: 200px;
+    
+}
+.block1{
+    width: 250px;
+    height: 250px;
+    background-color: red; 
+    margin-left: 300px;
+    background-image: url(../images/sp7.jpg);
+    background-size: 350px;
+}
+.block2{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    align-self: center;
+    background-image: url(../images/sp6.jpg);
+    background-size: 350px;
+}
+.block3{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    align-self: flex-end;
+    background-image: url(../images/sp8.png);
+    background-size: 250px 300px;
+}
+h4{
+    text-align: center;
+    padding-top: 50px;
+    
+    font-size: 50px;
+    font-weight: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+  h4:hover{
+      font-size: 60px;
+      transition: all 1s 1s linear;
+  }
+  p{
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 30px;
+  }
+ .st2{
+     padding-top: 20px;
+ } 
+ span{
+    font-weight: bold;
+}
+.index{
+    padding-bottom: 10px;
+}
+a{
+    font-size: 20px;
+    padding-left: 50px;
+    text-decoration: none;
+    
+}
+p:hover{
+    color: blueviolet;
+}
+a:hover{
+    color: red;
+}
